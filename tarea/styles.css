@@ -1,0 +1,46 @@
+:root{
+    --colorturquesa: rgb(12, 201, 160);
+    --colorazul: rgb(31, 103, 211);
+    --colorblanco: rgb(255, 255, 255);
+}
+
+.logo{
+    width: 80px;
+    height: auto;
+    border-radius: 100%;
+    text-align: left;
+}
+
+.lista-horizontal{
+    list-style-type: none;
+}
+
+.lista-horizontal li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header{
+    background-color: var(--colorblanco);
+}
+
+body{
+    background-color: var(--colorazul);
+    text-align: center;
+
+}
+
+.texto{
+    text-align: center;
+}
+
+footer{
+    background-color: var(--colorblanco);
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    
+}
